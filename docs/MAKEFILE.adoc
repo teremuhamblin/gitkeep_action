@@ -1,0 +1,123 @@
+🛠️ MAKEFILE — .gitkeep_action
+Teremu — The MadDoG.tmdg  
+:doctype: book  
+:icons: font  
+:sectnums:  
+:source-highlighter: coderay  
+:experimental:
+
+[.text-center]
+Module d’exécution tactique — Edition Quantum‑Era / Military‑Ops Fusion.
+
+---
+
+1. 🔥 Vision Opérationnelle
+Le Makefile est un système d’exécution, un outil tactique, un point d’entrée opérationnel pour le projet.  
+Il garantit :
+
+- exécution contrôlée  
+- tests automatisés  
+- nettoyage structuré  
+- supervision des logs  
+- discipline structurelle  
+- cohérence multi‑projets  
+
+[quote, Doctrine]
+
+Chaque commande est une opération.  
+Chaque opération doit être propre, traçable et prévisible.
+
+
+---
+
+2. ⚙️ Makefile — Version Fusion Masterclass
+
+[source,makefile]
+----
+
+============================================================
+
+🛰️ gitkeep_action — Makefile Quantum‑Era / Military‑Ops
+
+Description : Système d'exécution, de test et de maintenance
+
+============================================================
+
+▶ Exécution principale
+run:
+	@echo "[RUN] Lancement du module principal..."
+	python3 src/main.py
+
+🧪 Tests unitaires & CI/CD
+test:
+	@echo "[TEST] Exécution des tests unitaires..."
+	pytest -q
+
+🧹 Nettoyage structurel (cache/tmp)
+clean:
+	@echo "[CLEAN] Nettoyage des dossiers runtime..."
+	rm -rf cache/ tmp/
+	@echo "[CLEAN] Nettoyage terminé."
+
+📡 Supervision des logs
+logs:
+	@echo "[LOGS] Surveillance en temps réel..."
+	tail -f logs/app.log
+----
+
+---
+
+3. 🧬 Doctrine Makefile — Quantum‑Era
+
+Règles d’engagement
+- run → point d’entrée opérationnel  
+- test → validation structurelle CI/CD  
+- clean → hygiène du dépôt  
+- logs → supervision tactique  
+
+Principes
+- Chaque commande doit être prédictible  
+- Chaque action doit être traçable  
+- Chaque module doit être isolé  
+- Chaque exécution doit être propre  
+
+[IMPORTANT]
+====
+Le Makefile est un outil de commandement, pas un utilitaire.  
+Il doit refléter la discipline structurelle du projet.
+====
+
+---
+
+4. 🧩 Extensions Enterprise‑Grade (Optionnelles)
+
+[source,makefile]
+----
+
+🔧 Installation des dépendances
+install:
+	pip install -r requirements.txt
+
+🛡️ Audit de sécurité
+security:
+	bandit -r src/
+
+🧱 Vérification structurelle
+structure:
+	python3 tools/validate_structure.py
+
+🐳 Docker (build + run)
+docker:
+	docker build -t gitkeep_action .
+	docker run gitkeep_action
+----
+
+---
+
+5. 🧠 Notes Tactiques
+- Le Makefile prépare le terrain pour CI/CD, audits, déploiements.  
+- Il impose une discipline structurelle.  
+- Il doit rester simple, clair, opérationnel.  
+- Il doit être cohérent avec la doctrine .gitkeep_action.
+
+---
