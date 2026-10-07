@@ -1,11 +1,25 @@
+# ============================================================
+# 🛰️ gitkeep_action — Makefile Quantum‑Era / Military‑Ops
+# Description : Système d'exécution, de test et de maintenance
+# ============================================================
+
+# ▶ Exécution principale
 run:
+	@echo "[RUN] Lancement du module principal..."
 	python3 src/main.py
 
+# 🧪 Tests unitaires & CI/CD
 test:
+	@echo "[TEST] Exécution des tests unitaires..."
 	pytest -q
 
+# 🧹 Nettoyage structurel (cache/tmp)
 clean:
+	@echo "[CLEAN] Nettoyage des dossiers runtime..."
 	rm -rf cache/* tmp/*
+	@echo "[CLEAN] Nettoyage terminé."
 
+# 📡 Supervision des logs
 logs:
+	@echo "[LOGS] Surveillance en temps réel..."
 	tail -f logs/app.log
