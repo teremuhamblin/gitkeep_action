@@ -24,15 +24,18 @@
 </p>
 
 ---
+
 # .gitkeep_action
 - Projet basé sur .gitkeep
 >Ce projet démontre l'utilisation avancée de `.gitkeep` pour structurer un projet complet, même sans fichier
 
 ### Objectifs
+```text
 - Versionner des dossiers vides
 - Préparer la structure d’un projet avant développement
 - Créer des espaces réservés pour modules, logs, data, tests, etc.
 - Maintenir une architecture propre dès le début
+```
 
 ### Structure `OPTIONNELLE`
 [![CI](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/.gitkeep_action/actions/workflows/ci.yml)
@@ -93,7 +96,7 @@ docker run gitkeep
 
 <p align="center">
   <sub>
-    Développé avec ❤️ par <strong>Teremu</strong> • Projet <strong>gitkeep_action</strong><br/>
+    Développé avec ❤️ par <strong>The MadDoG.tmdg</strong> • Projet <strong>gitkeep_action</strong><br/>
     Automatisation avancée, workflows CI/CD, qualité entreprise.
   </sub>
 </p>
