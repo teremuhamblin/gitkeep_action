@@ -1,5 +1,3 @@
----
-
 🛰️ gitkeep_action — Enterprise Automation Toolkit
 Teremu — The MadDoG.tmdg  
 :doctype: book  
