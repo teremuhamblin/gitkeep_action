@@ -1,0 +1,127 @@
+📜 CHANGELOG — .gitkeep_action
+Teremu — The MadDoG.tmdg  
+:doctype: book  
+:icons: font  
+:sectnums:  
+:source-highlighter: coderay  
+:experimental:
+
+[.text-center]
+Historique doctrinal des versions — Edition Quantum‑Era / Military‑Ops Fusion.
+
+---
+
+1. 🔥 Vision & Doctrine du Versioning
+Ce CHANGELOG n’est pas une simple liste de modifications.  
+C’est un journal opérationnel, un registre tactique, un historique de progression structurée.
+
+[quote, Doctrine]
+
+Chaque version est une opération.  
+Chaque opération renforce la structure.  
+Chaque structure prépare la prochaine évolution.
+
+
+---
+
+2. 📌 Versions Livrées (v1.0.0 → v5.0.0)
+
+---
+
+🟪 v5.0.0 — Global Release & Stabilisation
+
+Ajouts
+- Documentation complète du projet  
+- Standardisation de tous les dossiers  
+- Mode strict/flex pour la structure  
+- Publication du template officiel .gitkeep_action
+
+Améliorations
+- Nettoyage du code des scripts  
+- Amélioration des descriptions .gitkeep
+
+[NOTE]
+====
+Version Enterprise‑Grade — stabilisation globale, architecture prête production.
+====
+
+---
+
+🔥 v4.0.0 — Extensions & Templates
+
+Ajouts
+- Templates de projets basés sur .gitkeep  
+- Générateur CLI de squelette  
+- Support monorepo / multi‑projets  
+- Presets : web, api, data, devops  
+- Guide contributeur
+
+Corrections
+- Correction des chemins relatifs dans les scripts  
+- Amélioration du README
+
+[IMPORTANT]
+====
+Version modulaire — reproduction rapide de projets, architecture extensible.
+====
+
+---
+
+🚀 v3.0.0 — Automatisation Git & CI/CD
+
+Ajouts
+- Workflow GitHub Actions  
+- Validation automatique de structure  
+- Validateur YAML/JSON  
+- Script de nettoyage cache/tmp  
+- Badge CI
+
+Corrections
+- Correction du .gitignore  
+- Amélioration des messages de commit
+
+[NOTE]
+====
+Version DevOps — structure contrôlée, automatisée, auditée.
+====
+
+---
+
+📦 v2.0.0 — Gestion avancée des dossiers
+
+Ajouts
+- Descriptions enrichies dans chaque .gitkeep  
+- Fichiers .meta pour les dossiers  
+- Fichier structure.md  
+- Support env/ et config/  
+- Script de génération automatique
+
+Corrections
+- Correction des chemins dans la structure initiale
+
+[NOTE]
+====
+Version architecturale — structure intelligente, auto‑documentée.
+====
+
+---
+
+🧱 v1.0.0 — Initialisation du projet
+
+Ajouts
+- Structure de base du projet  
+- Dossiers principaux (src, logs, data, cache, tmp, docs, tests)  
+- .gitkeep pour versionner les dossiers vides  
+- README initial  
+- .gitignore optimisé  
+
+[IMPORTANT]
+====
+Version fondatrice — architecture minimale stable.
+====
+
+---
+
+🏁 Fin du CHANGELOG
+> Document doctrinal complet — Edition Quantum‑Era Fusion.
+
