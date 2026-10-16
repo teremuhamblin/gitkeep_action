@@ -1,25 +1,67 @@
 # ============================================================
 # 🛰️ gitkeep_action — Makefile Quantum‑Era / Military‑Ops
-# Description : Système d'exécution, de test et de maintenance
+# Description : Système d'exécution, de test, maintenance & audit
 # ============================================================
 
-# ▶ Exécution principale
-run:
-	@echo "[RUN] Lancement du module principal..."
-	python3 src/main.py
+# === Variables tactiques ====================================
+PYTHON := python3
+MAIN   := src/main.py
+LOG    := logs/app.log
+CACHE  := cache
+TMP    := tmp
 
-# 🧪 Tests unitaires & CI/CD
+# Mode silencieux (make silent=1)
+ifeq ($(silent),1)
+	Q := @
+else
+	Q :=
+endif
+
+# === Loader ==================================================
+init:
+	$(Q)echo "[INIT] Vérification de l'environnement..."
+	$(Q)mkdir -p $(CACHE) $(TMP) logs
+	$(Q)echo "[INIT] OK — Environnement prêt."
+
+# === Exécution principale ====================================
+run: init
+	$(Q)echo "[RUN] Lancement du module principal..."
+	$(Q)$(PYTHON) $(MAIN)
+
+# === Tests unitaires & CI/CD ================================
 test:
-	@echo "[TEST] Exécution des tests unitaires..."
-	pytest -q
+	$(Q)echo "[TEST] Exécution des tests unitaires..."
+	$(Q)pytest -q || (echo "[ERROR] Tests échoués." && exit 1)
 
-# 🧹 Nettoyage structurel (cache/tmp)
+# === Nettoyage structurel ===================================
 clean:
-	@echo "[CLEAN] Nettoyage des dossiers runtime..."
-	rm -rf cache/* tmp/*
-	@echo "[CLEAN] Nettoyage terminé."
+	$(Q)echo "[CLEAN] Nettoyage des dossiers runtime..."
+	$(Q)rm -rf $(CACHE)/* $(TMP)/*
+	$(Q)echo "[CLEAN] Nettoyage terminé."
 
-# 📡 Supervision des logs
+# === Supervision des logs ===================================
 logs:
-	@echo "[LOGS] Surveillance en temps réel..."
-	tail -f logs/app.log
+	$(Q)echo "[LOGS] Surveillance en temps réel..."
+	$(Q)tail -f $(LOG)
+
+# === Audit de sécurité ======================================
+security:
+	$(Q)echo "[SECURITY] Audit de sécurité en cours..."
+	$(Q)bandit -r src/ || echo "[SECURITY] Audit terminé avec alertes."
+
+# === Vérification structurelle ==============================
+structure:
+	$(Q)echo "[STRUCTURE] Vérification de la structure du projet..."
+	$(Q)$(PYTHON) tools/validate_structure.py
+
+# === Docker (build + run) ===================================
+docker:
+	$(Q)echo "[DOCKER] Construction de l'image..."
+	$(Q)docker build -t gitkeep_action .
+	$(Q)echo "[DOCKER] Exécution du conteneur..."
+	$(Q)docker run gitkeep_action
+
+# === Mode verbeux ===========================================
+verbose:
+	@echo "Mode verbeux activé."
+	@$(MAKE) run silent=0
