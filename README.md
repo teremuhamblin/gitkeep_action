@@ -142,29 +142,31 @@ docker run gitkeep
 ---
 
 ### 🛡️ 10. Statuts Enterprise
+```md
 - Qualité : Enterprise‑Grade  
 - Sécurité : Vérifiée  
 - Automatisation : 100%  
 - Conformité : Validée  
 - CI/CD : Optimisé
+```
 
 > Les badges visuels ont été retirés pour compatibilité Markdown minimaliste.
 
 ---
 
 ### 📡 11. Statut du Projet
-ACTIVE — Maintenu, stable, opérationnel.
+- ACTIVE — Maintenu, stable, opérationnel.
 
 ---
 
 ### 👤 12. Crédit & Signature
-Développé par The MadDoG.tmdg. 
-Projet : gitkeep_action.
+- Développé par The MadDoG.tmdg.
+- Projet : gitkeep_action.
 
-Automatisation avancée, workflows CI/CD, qualité entreprise.
+   - Automatisation avancée, workflows CI/CD, qualité entreprise.
 
 © 2026 — Tous droits réservés.  
-Licence : Apache 2.0
+- Licence : Apache 2.0
 
 ---
 
@@ -193,30 +195,38 @@ deploy/      — Déploiements
 ### 🧠 14. Section Fusion Ultime — Military‑Ops Doctrine
 
 #### ⚔️ 14.1 Principes Opérationnels
+```md
 - Préparation avant action  
 - Structure avant code  
 - CI/CD avant fonctionnalités  
 - Documentation avant modules  
+```
 
 #### 📏 14.2 Règles d’Engagement
+```md
 - Aucun dossier non versionné  
 - Aucun module non préparé  
 - Aucun pipeline non anticipé  
 - Aucun dépôt sans architecture  
+```
 
 #### 🪖 14.3 Signature Doctrine
+```md
 > Un dépôt propre est une arme.  
 > Une architecture stable est un avantage stratégique.  
 > .gitkeep est la première ligne de défense.
+```
 
 ---
 
 ✔️ Version *Markdown* pour GitHub optimisée pour GitHub, avec :
+```text
 - blocs de code corrects  
 - citations stylées  
 - emojis cohérents  
 - sections lisibles  
 - structure Enterprise‑Grade  
 - style Quantum‑Era + Military‑Ops  
+```
 
 ---
